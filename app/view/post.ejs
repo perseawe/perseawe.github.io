@@ -1,0 +1,21 @@
+<div class="post-view">
+  <% if (!static) { %>
+    <a href="/">&#x276E; Back</a>
+  <% } %>
+  <article>
+    <h1><%= post.title %></h1>
+    <span class="date"><a href="/<%= static ? 'index.html' : '' %>"><%= blog.name %></a>, <time><%= (new Date(post.time)).toLocaleString() %></time>
+      <% if (!static) { %>
+        | <a href="/post/<%= post.link %>/edit">edit</a>
+        | <a href="javascript:;"
+            onclick='(prompt("Please enter \"OK\" to delete \"<%= post.title %>\":") + "").toUpperCase() == "OK" && delete_form.submit()'
+          >delete</a>
+      <% } %>
+    </span>
+    <p><%- marked(post.content) %></p>
+  </article>
+
+  <%- plugin.enable && plugin.postBottom ? plugin.postBottom() : '' %>
+
+  <form id="delete_form" style="display: none" method="POST" action="/post/<%= post.link %>/delete"></form>
+</div>

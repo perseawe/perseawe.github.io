@@ -1,0 +1,18 @@
+<div>
+  <a href="/post/<%= post.link %>">&#x276E; Back</a>
+  <form id="post_form" method="POST">
+    <article>
+      <h2><input type="text" name="title" placeholder="Title" value="<%= post.title %>" autocomplete="off"></h2>
+      <p>
+        <textarea name="content"><%= post.content %></textarea>
+      </p>
+      <p>Insert image (uploaded to "/static" folder): <input class="file-upload upload-finish" style="display: none" type="file">
+      <noscript>sorry, but your browser doesn't support JavaScript.</noscript>
+      </p>
+      <%- plugin.enable && plugin.editorArticleBottom ? plugin.editorArticleBottom() : '' %>
+    </article>
+    <input type="submit" value="Save">
+  </form>
+</div>
+<script src="/static/file-upload.js"></script>
+<%- plugin.enable && plugin.editorBottom ? plugin.editorBottom() : '' %>

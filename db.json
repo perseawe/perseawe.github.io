@@ -1,0 +1,36 @@
+{
+  "blog": {
+    "name": "Hi, John.",
+    "footer": "Copyright 2016 © Xinyu Zhang. Powered by Innsbruck.  RSS",
+    "pagination": 15,
+    "description": false,
+    "google-analytics": "",
+    "css": "",
+    "plugin": {
+      "cname": "xyzhang.xyz",
+      "google-fonts": "",
+      "disqus": "xyzhangxyz",
+      "rss": "http://xyzhang.xyz/atom.xml"
+    }
+  },
+  "posts": [
+    {
+      "title": "Hello",
+      "content": "Mr. Xing, nice to meet you.",
+      "link": "3",
+      "time": 1464273976529,
+      "plugin": {
+        "thumbnail": ""
+      }
+    }
+  ],
+  "pages": [
+    {
+      "title": "about",
+      "content": "Why am I so ruozhi?",
+      "link": "aboutme",
+      "order": 0
+    }
+  ],
+  "id": 3
+}

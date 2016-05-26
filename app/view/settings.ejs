@@ -1,0 +1,41 @@
+<div>
+  <a href="/">&#x276E; Back</a>
+  <form id="settings_form" method="POST" action="/settings">
+    <article>
+      <h3>Basic</h3>
+      <div class="input-group">
+        <h5>Blog Name</h5>
+        <p><input type="text" name="name" placeholder="" value="<%= blog.name %>" autocomplete="off"></p>
+      </div>
+      <div class="input-group">
+        <h5>Posts per Page</h5>
+        <p><input type="text" name="pagination" placeholder="1 ≤ P ≤ 100" value="<%= blog.pagination %>" autocomplete="off"></p>
+      </div>
+      <div class="input-group">
+        <h5>Footer Text</h5>
+        <p><input type="text" name="footer" placeholder="Copyright" value="<%= blog.footer %>" autocomplete="off"></p>
+      </div>
+      <div class="input-group">
+        <h5>Post Description</h5>
+        <p><input type="checkbox" name="description" <%- blog.description ? 'checked aria-checked' : '' %>></p>
+      </div>
+      <hr/>
+      <h3>Advanced</h3>
+      <div class="input-group">
+        <h5>Google Analytics</h5>
+        <p><input type="text" name="google-analytics" placeholder="ID" value="<%= blog['google-analytics'] %>"></p>
+      </div>
+      <div class="input-group">
+        <h5>Custom CSS</h5>
+        <p><input type="text" name="css" placeholder="..." value="<%= blog.css %>"></p>
+      </div>
+      <% if (plugin.enable) { %>
+        <hr/>
+        <h3>Plugins</h3>
+        <%- plugin.settings ? plugin.settings() : '' %>
+      <% } %>
+      <br/>
+      <input type="submit" value="Save">
+    </article>
+  </form>
+</div>
