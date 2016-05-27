@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Hi, John.]]></title>
-        <description><![CDATA[Hi, John.]]></description>
+        <title><![CDATA[谢伊的小屋]]></title>
+        <description><![CDATA[谢伊的小屋]]></description>
         <link>http://xyzhang.xyz/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 May 2016 14:46:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 May 2016 08:36:16 GMT</lastBuildDate>
         <atom:link href="http://xyzhang.xyz/atom.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Hello]]></title>
-            <description><![CDATA[<p>Mr. Xing, nice to meet you.</p>
+            <title><![CDATA[Hello, Innsbruck.]]></title>
+            <description><![CDATA[<p>在这个月初的时候，<a href="https://quietshu.github.io">戍爷</a>告诉我他觉得现在现有的博客系统都太过重量级，在使用的时候，需要花不少功夫才能使得整个东西工作起来。于是他就开始动手写一个非常轻量的博客系统，并很快的实现了一个不错的版本。在向我展示的时候，这个项目已经具有不错的效果，看起来非常舒服，而且还设计了非常自由的插件系统，可以非常方便的对项目进行拓展，最重要的是，的确非常轻量。同时，戍爷还给这个项目起了一个非常棒的名字，<a href="https://github.com/quietshu/innsbruck">innsbruck</a>。</p>
+<p>恰好最近因为手上的MB Air容量有限，更换了一台容量较大的MB Pro，在配新机器的环境的时候，索性直接将整个博客也都迁移到 innsbruck 上面来，在使用的过程之中为这个项目再做一些贡献，也算是在最近繁杂的环境之中做的一个有意义的事情吧，特别是最近更觉身体不适，还是减少其他的分心事情，专心的学习一段时间，写写代码，调理一下生活吧。</p>
 ]]></description>
-            <link>http://xyzhang.xyz/post/3</link>
-            <guid isPermaLink="false">3</guid>
-            <pubDate>Thu, 26 May 2016 14:46:16 GMT</pubDate>
+            <link>http://xyzhang.xyz/post/1</link>
+            <guid isPermaLink="false">1</guid>
+            <pubDate>Fri, 27 May 2016 06:59:33 GMT</pubDate>
         </item>
     </channel>
 </rss>
