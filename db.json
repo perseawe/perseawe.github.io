@@ -4,7 +4,7 @@
     "footer": "Copyright 2016 © Xinyu Zhang. Powered by Innsbruck and Github.",
     "pagination": 15,
     "description": false,
-    "google-analytics": "",
+    "google-analytics": "UA-78421867-1",
     "css": "",
     "plugin": {
       "cname": "xyzhang.xyz",

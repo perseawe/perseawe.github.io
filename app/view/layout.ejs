@@ -21,7 +21,7 @@
 
   <div class="container">
     <%- body %>
-    <footer><%= blog ? blog.footer : '' %></footer>
+    <footer><%- blog ? blog.footer : '' %></footer>
     <%- plugin.enable && plugin.containerBottom ? plugin.containerBottom() : '' %>
   </div>
   <% if (blog['google-analytics']) { %>
