@@ -5,7 +5,7 @@
     "pagination": 15,
     "description": false,
     "google-analytics": "UA-78421867-1",
-    "css": "",
+    "css": "body { max-width: none; }",
     "plugin": {
       "cname": "xyzhang.xyz",
       "google-fonts": "",
